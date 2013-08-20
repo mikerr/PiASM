@@ -10,7 +10,7 @@ loop:
 	SUB R0,#1
 
 	SUBS R1,#1
-	@ CMP R1,#0 @ not needed if we use SUBS instead of SUB above
+			@ CMP R1,#0 @ now not needed as we use SUBS instead of SUB above
 	BNE loop
 _end:
 	MOV R7,#1
