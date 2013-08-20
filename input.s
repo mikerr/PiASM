@@ -2,11 +2,11 @@
 _start:
 
 _read:
-  mov R7, #3 @ syscall fro read
+  mov R7, #3 @ syscall for read
   mov R0, #0 @ keybaord
   mov R2, #7 @ read 1st 5 characters
   ldr R1,=string
-  add R1,R1, #6 @ add after "Hello "
+  add R1,R1, #6 @ add after "Hello " in string
   swi 0
   
 _print:
