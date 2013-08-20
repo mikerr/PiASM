@@ -8,7 +8,7 @@ _start:
   swi 0
   
 _exit:
-  move R7, #1
+  mov R7, #1
   swi 0
   
 .data
