@@ -9,7 +9,7 @@ _start:
 loop:
 	SUB R0,#1
 
-	SUBS R1,#1	@ CMP R1,#0 no longer needed as we use SUBS instead of SUB above
+	SUBS R1,#1	@ CMP R1,#0 no longer needed as we use SUBS instead of SUB 
 	BNE loop
 _end:
 	MOV R7,#1
