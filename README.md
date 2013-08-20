@@ -14,7 +14,12 @@ asm02.s - load a value (65)
 
 asm03.a - slight mod of last one
           using SUBS ( set flags) instead of SUB to replace the CMP instruction
-          
+
+hello.s - prints "hello world"
+
+input.s - reads your name from the keyboard and prints hello <name>
+
+
 Assemble, link & run with:
 
 <pre>
