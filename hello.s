@@ -1,4 +1,4 @@
-.global _Start
+.global _start
 
 _start:
   mov R7, #4 @ syscall for print
