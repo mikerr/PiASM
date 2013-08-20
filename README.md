@@ -17,7 +17,7 @@ asm03.a - slight mod of last one
 
 hello.s - prints "hello world"
 
-input.s - reads your name from the keyboard and prints hello <name>
+input.s - reads your name from the keyboard and prints hello (name)
 
 
 Assemble, link & run with:
