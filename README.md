@@ -8,8 +8,8 @@ asm01.s - load a value (65) and exit.
           echo outputs 65
 
 asm02.s - load a value (65)
-          create a loop to run 5 times
-          subtract 1 each loop
+          create a loop to run 5 times,
+          subtracting 1 each loop
           echo outputs 60
 
 asm03.a - slight mod of last one
