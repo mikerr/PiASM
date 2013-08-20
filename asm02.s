@@ -9,8 +9,8 @@ _start:
 loop:
 	SUB R0,#1
 
-	SUBS R1,#1
-	@ CMP R1,#0 @ not needed if we use SUBS instead os SUB
+	SUB R1,#1
+	CMP R1,#0 
 	BNE loop
 _end:
 	MOV R7,#1
