@@ -19,7 +19,8 @@ hello.s - prints "hello world"
 
 input.s - reads your name from the keyboard and prints hello (name)
 
-
+Usage
+=====
 Assemble, link & run with:
 
 <pre>
