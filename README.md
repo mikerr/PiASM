@@ -19,11 +19,8 @@ Assemble, link & run with:
 
 <pre>
 as -o asm01.o asm01.s
-
 ld -o asm01 asm01.o
-
 ./asm01
-
 echo #?
 </pre>
 
